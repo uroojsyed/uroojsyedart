@@ -1,0 +1,230 @@
+
+footer{
+	background-color: white;
+	display: inline-flex;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	
+	
+}
+
+footer p{
+	color: black;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0.8%;
+}
+
+
+
+body{ 
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	overflow-x: hidden;
+	height: 100%;
+
+
+
+	
+}
+
+
+
+h1.name-title{
+	font-family: 'Raleway', sans-serif;
+	
+	
+}
+
+.name-title{
+	padding-top: 10%;
+	font-size: 45px;
+}
+
+h3.name-title{
+	font-family: 'Raleway', sans-serif;
+}
+
+h2.name-title{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar{
+	z-index: 10;
+
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.nav-link{
+	font-size: 25px;
+}
+
+.navbar-brand{
+	color: white;
+	font-size: 30px;
+	font-family: 'Mrs Saint Delafield', cursive;
+
+}
+
+.brandnav{
+	font-weight: bold;
+}
+.navbar-toggler-icon{
+	color: grey;
+}
+
+
+
+.section{
+	text-align: center; 
+	margin-bottom: 30px; 
+	font-size: 1.5rem;
+}
+
+.section-b{
+	margin-top: 40px;
+}
+
+hr{
+	margin-top: 0.5px;
+  	border: none;
+  	height: 2px;
+	width: 100px;
+  	background-color: gray;
+	text-align: center;
+}
+
+.hr2{
+	margin-top: 0.5px;
+  	border: none;
+  	height: 2px;
+	width: inherit;
+  	background-color: gray;
+	text-align: center;
+}
+
+
+.jumbotron-fluid {
+	background-color: white;
+	margin-top: -5%;
+	margin-bottom: -8%;
+	
+}
+
+
+ 
+path{
+	fill:none;
+	stroke:#000000;
+	stroke-width:5;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+
+.stroke-u{
+	stroke-dasharray: 645;
+	stroke-dashoffset: 645;
+	animation: write 1.5s linear forwards;
+	
+}
+
+.stroke-j{
+	stroke-dasharray: 750;
+	stroke-dashoffset: 750;
+	animation: write 1.5s linear forwards;
+	animation-delay: 1.5s;
+}
+
+.stroke-s{
+	stroke-dasharray: 1530;
+	stroke-dashoffset: 1530;
+	animation: write 1s linear forwards;
+	animation-delay: 3s;
+}
+
+.stroke-y{
+	stroke-dasharray: 650;
+	stroke-dashoffset: 650;
+	animation: write 1s linear forwards;
+	animation-delay: 4s;
+}
+
+.stroke-d{
+	stroke-dasharray: 530;
+	stroke-dashoffset: 530;
+	animation: write 1.5s linear forwards;
+	animation-delay: 5s;
+}
+
+.stroke-a{
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: write 1s linear forwards;
+	animation-delay: 6.5s;
+}
+
+.stroke-end{
+	stroke-dasharray: 80;
+	stroke-dashoffset: 80;
+	animation: write 0.2s linear forwards;
+	animation-delay: 7.5s;
+}
+
+.dot-1{
+	stroke-dasharray: 40;
+	stroke-dashoffset: 40;
+	animation: write 0.2s linear forwards;
+	animation-delay: 7.7s;
+}
+
+.dot-2{
+	stroke-dasharray: 40;
+	stroke-dashoffset: 40;
+	animation: write 0.4s linear forwards;
+	animation-delay: 7.9s;
+}
+
+.dot-3{
+	stroke-dasharray: 40;
+	stroke-dashoffset: 40;
+	animation: write 0.5s linear forwards;
+	animation-delay: 8.3s;
+}
+	
+@keyframes write {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+	
+
+.gallery img:hover {
+	transform: scale(1.02);
+	transition: all ease-in 0.2s;
+
+}
+
+	
+.messenger{
+	background-color: #5A3233;
+}
+
+.bg1{
+	background-color: #5A3233
+}
+
+
+.blurb{
+	line-height: 2;
+}
