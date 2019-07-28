@@ -233,6 +233,21 @@ path{
 	
 }
 
+a:link {
+  text-decoration: none;
+  color: gray;
+}
 
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 
 
