@@ -4,6 +4,7 @@
   background:    -moz-linear-gradient(white, pink);
   background:         linear-gradient(white, pink);
 height: 120px;
+	max-height: 120px;
 position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -245,7 +246,8 @@ path{
 }
 
 .error{
-	height:150px;
+	height: 120px;
+	margin-bottom: 200px;
 }
 
 p{
