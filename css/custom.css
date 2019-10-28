@@ -1,4 +1,4 @@
-.footer{
+/*.footer{
   background: #466368;
   background: -webkit-linear-gradient(white, pink);
   background:    -moz-linear-gradient(white, pink);
@@ -24,7 +24,37 @@ html,body{
 	height: 100%;
 	
 }
+*/
+html {
+    position: relative;
+    min-height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
 
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+	font-family: 'Open Sans Condensed', sans-serif;
+    padding: 25px;
+	line-height: 1.5;
+	color: #333;
+}
+
+footer {
+ background: -webkit-linear-gradient(white, pink);
+  background:    -moz-linear-gradient(white, pink);
+  background:         linear-gradient(white, pink);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
 
 
 h1.name-title{
@@ -247,7 +277,6 @@ path{
 
 .error{
 	height: 120px;
-	margin-bottom: 200px;
 }
 
 p{
