@@ -1,8 +1,8 @@
 /*.footer{
   background: #466368;
-  background: -webkit-linear-gradient(white, pink);
-  background:    -moz-linear-gradient(white, pink);
-  background:         linear-gradient(white, pink);
+  background: -webkit-linear-gradient(white, grey);
+  background:    -moz-linear-gradient(white, grey);
+  background:         linear-gradient(white, grey);
 height: 120px;
 	max-height: 120px;
 position: fixed;
@@ -45,9 +45,9 @@ body {
 }
 
 footer {
- background: -webkit-linear-gradient(white, pink);
-  background:    -moz-linear-gradient(white, pink);
-  background:         linear-gradient(white, pink);
+ background: -webkit-linear-gradient(white, grey);
+  background:    -moz-linear-gradient(white, grey);
+  background:         linear-gradient(white, grey);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -83,8 +83,8 @@ h2.name-title{
 }
 
 .navbar-brand{
-	font-size: 1.5em;
-	font-family: 'Allura', cursive;
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
 }
 
 .nav-item{
