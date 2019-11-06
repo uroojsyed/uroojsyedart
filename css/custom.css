@@ -283,3 +283,11 @@ p{
 	font-size: 20px;
 	font-family: 'Playfair Display', serif;
 }
+
+.pdf{
+	margin: 10px;
+}
+
+iframe{
+	margin-top: 10px;
+}
