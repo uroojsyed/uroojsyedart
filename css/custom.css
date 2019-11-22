@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Archivo Black';
   font-style: normal;
-  font-weight: 400;
   src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(https://fonts.gstatic.com/s/archivoblack/v9/HTxqL289NzCGg4MzN6KJ7eW6CYyF-w.ttf) format('truetype');
 }
 
@@ -281,6 +280,7 @@ iframe{
 .glitch {
   color: black;
   font-size: 8vw;
+	 font-family: 'Archivo Black', sans-serif;
   text-transform: upercase;
   position: relative;
   display: inline-block;
