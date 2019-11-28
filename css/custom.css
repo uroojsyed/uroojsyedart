@@ -21,7 +21,7 @@ body {
 footer {
  background: -webkit-linear-gradient(white, grey);
  background:    -moz-linear-gradient(white, grey);
- background:         linear-gradient(white, gray);
+ background:         linear-gradient(white, grey);
     position: absolute;
     left: 0;
     bottom: 0;
