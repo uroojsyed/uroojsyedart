@@ -1,10 +1,9 @@
 
  @font-face { 
 	 font-family: Afsaneh Font; 
-	 src: url('Afsaneh Font.tiff'); 
+	 src: url('Afsaneh Font.ttf') format('truetype');
 	 src: url('afsaneh_font-webfont.woff2') format('woff2'),
         url('afsaneh_font-webfont.woff') format('woff'),
-	 url('afsaneh_font-webfont.ttf') format('truetype');
 	 
 
 } 
