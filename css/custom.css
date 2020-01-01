@@ -3,6 +3,7 @@
 	 font-family: Afsaneh Font; 
 	 src: url('Afsaneh Font.eot');
 	 src: url('Afsaneh Font.woff') format('woff'),
+		 url('Afsaneh Font.eot') format('embedded-opentype'), 
 		 url('Afsaneh Font.ttf')format('truetype'),
 		 url('Afsaneh Font.svg') format('svg'),
 	  url('Afsaneh Font.otf');
