@@ -132,6 +132,23 @@ li.social a img:hover{
 	
 }
 
+.subheading{
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.content{
+	font-family: 'Playfair Display', serif;
+	margin-top: 0.5em;
+}
+
+.space{
+	margin-top: 5%;
+}
+
 hr{
     border: 0;
     height: 1px;
@@ -267,6 +284,14 @@ path{
 	transition: all ease-in 0.2s;
 
 
+}
+
+.projects2 img{
+	width: 200px;
+}
+
+.projects1 img{
+	width: 250px;
 }
 
 	
