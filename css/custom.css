@@ -317,7 +317,9 @@ path{
 height: 5vw;
 }
 
-
+.eye img{
+	height: 7vw;
+}
 
 .description p{
 
