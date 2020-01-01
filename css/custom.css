@@ -159,7 +159,6 @@ hr{
 	max-height: 500px;
 }
 
-
  
 path{
 	fill:none;
@@ -286,11 +285,16 @@ path{
   font-size: 5vw;
 	text-align: right;
 	margin-right: 40px;
-	
-	
+
 }
 
+.hasid-banner img{
+height: 5vw;
+}
 
+.eye img{
+	height: 7vw;
+}
 
 .description p{
 
@@ -311,6 +315,7 @@ path{
 	font-family: 'Playfair Display', serif;
 	font-size: 3em;
 	text-align: center;
+	margin-top: 5%;
 }
 
 .pdf{
@@ -336,13 +341,7 @@ margin-top: 12%;
 	
 }
 
-.hasid-text{
-	color: white;
-	font-size: 4vw;
-	text-align: center;
-	font-family: 'Harmattan', sans-serif;
-	
-}
+
 
 .glitch {
   font-family: 'Sedgwick Ave Display', cursive;
