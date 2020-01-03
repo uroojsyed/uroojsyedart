@@ -424,15 +424,14 @@ margin-top: 12%;
   font: 700 0.8rem 'Raleway', sans-serif;
   padding: 0.5em 1em;
   letter-spacing: 0.05rem;
+	margin-left: 1%;
+	margin-top: 4em;
 }
 .btn:focus {
   outline: 2px dotted gray;
 }
 
-button{
-	margin-left: 1%;
-	margin-top: 4em;
-}
+
 
 .glitch {
   font-family: 'Sedgwick Ave Display', cursive;
