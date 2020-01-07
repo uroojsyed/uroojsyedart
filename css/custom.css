@@ -482,6 +482,14 @@ margin-top: 12%;
   opacity: .8;
 }
 
+.def img{
+	  -webkit-filter: invert(1);
+   filter: invert(1);
+	width: 100%;
+	height: inherit;
+	text-align: center;
+}
+
 @-webkit-keyframes noise-anim {
   0% {
     clip: rect(61px, 9999px, 65px, 0);
