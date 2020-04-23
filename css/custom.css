@@ -143,6 +143,15 @@ li.social a img:hover{
 .content{
 	font-family: 'Playfair Display', serif;
 	margin-top: 0.5em;
+	
+}
+
+.content2{
+	color: #3d3d3d;
+	font-family: 'Playfair Display', serif;
+	border: thin solid #3d3d3d;
+	border-radius: 2px;
+	padding: 5px;
 }
 
 .space{
@@ -283,8 +292,9 @@ path{
 	transform: scale(1.03);
 	transition: all ease-in 0.2s;
 
-
 }
+
+
 
 .projects2 img{
 	width: 200px;
@@ -310,10 +320,19 @@ path{
 }
 
 .rings{
-	height: 300px;
-	width: auto;
+	height: 80%;
+	width: 80%;
 }
 
+.fmp{
+	height: 80%;
+	width: 80%;
+}
+
+.rbc{
+	height: 70%;
+	width: 70%;
+}
 
 .intro p{
   font-size: 5vw;
@@ -428,7 +447,8 @@ margin-top: 12%;
 	margin-top: 4em;
 }
 .btn:focus {
-  outline: 2px dotted gray;
+  outline:
+2px dotted gray;
 }
 
 
