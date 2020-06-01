@@ -9,6 +9,10 @@
 	  url('Afsaneh Font.otf');
 } 
 
+@font-face {
+  font-family: Bway;
+  src: url(Bway.ttf);
+}
 
 html {
     position: relative;
@@ -132,6 +136,11 @@ li.social a img:hover{
 	
 }
 
+.heading3{
+	font-family: 'Bway';
+	font-size: 5rem;
+}
+
 .subheading{
 	text-align: left;
 	font-family: 'Playfair Display', serif;
@@ -140,10 +149,38 @@ li.social a img:hover{
 	margin-top: 2em;
 }
 
+.subheading2{
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	margin-left: 10%;
+	
+}
+
+
+.mockup{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	
+	
+}
+
+.mocks{
+	margin-top: 5%;
+}
+
+
+
 .content{
 	font-family: 'Playfair Display', serif;
 	margin-top: 0.5em;
+	font-size: 1em;
 	
+}
+
+.mocktext{
+	font-family: 'Playfair Display', serif;
+	margin-top: 30%;
+	font-size: 1.2vw;
 }
 
 .content2{
@@ -153,6 +190,15 @@ li.social a img:hover{
 	border-radius: 2px;
 	padding: 5px;
 }
+
+
+.userflow{
+	width:100%;
+}
+
+
+
+
 
 .space{
 	margin-top: 5%;
@@ -329,10 +375,11 @@ path{
 	width: 80%;
 }
 
-.rbc{
-	height: 70%;
-	width: 70%;
+.heera{
+	height: 80%;
+	width: 80%;
 }
+
 
 .intro p{
   font-size: 5vw;
@@ -451,7 +498,12 @@ margin-top: 12%;
 2px dotted gray;
 }
 
-
+.lofi{
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	display: block;
+}
 
 .glitch {
   font-family: 'Sedgwick Ave Display', cursive;
