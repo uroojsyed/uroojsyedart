@@ -1,23 +1,13 @@
 
-@font-face { 
-	 font-family: Afsaneh Font; 
-	 src: url('Afsaneh Font.ttf');
-	 src: url('Afsaneh Font.woff') format('woff'),
-		 url('Afsaneh Font.eot') format('embedded-opentype'), 
-		 url('Afsaneh Font.ttf')format('truetype'),
-		 url('Afsaneh Font.svg') format('svg'),
-	  url('Afsaneh Font.otf');
-} 
-
 @font-face {
   font-family: 'Bway';
-  src: url('Bway.eot'); /* IE9 Compat Modes */
-  src: url('Bway.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('Bway.otf') format('opentype'), /* Open Type Font */
-    url('Bway.svg') format('svg'), /* Legacy iOS */
-    url('Bway.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('Bway.woff') format('woff'), /* Modern Browsers */
-	  url('Bway.woff2') format('woff2'); /* Modern Browsers */}
+  src: url('./fonts/Bway.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/Bway.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/Bway.otf') format('opentype'), /* Open Type Font */
+    url('./fonts/Bway.svg') format('svg'), /* Legacy iOS */
+    url('./fonts/Bway.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/Bway.woff') format('woff'), /* Modern Browsers */
+	  url('./fonts/Bway.woff2') format('woff2'); /* Modern Browsers */}
 
 html {
     position: relative;
