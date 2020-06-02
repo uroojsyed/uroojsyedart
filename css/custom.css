@@ -115,7 +115,11 @@ li.social a img:hover{
 }
 
 
-
+.style {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .heading2{
 	margin-top: 2em;
@@ -162,6 +166,8 @@ li.social a img:hover{
 .mocks{
 	margin-top: 5%;
 }
+
+
 
 
 
@@ -374,6 +380,7 @@ path{
 	height: 80%;
 	width: 80%;
 }
+
 
 
 .intro p{
