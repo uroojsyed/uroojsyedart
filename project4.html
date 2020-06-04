@@ -226,7 +226,7 @@ research into the design. The app should be easy to use to fulfil the purpose of
           <div class="vid">
           
 			  <video loop muted autoplay playsinline>
-  <source src="images/vid1.mp4" type="video/mp4">
+  <source src="images/vid1.mp4" type="video/mp4" class="vids">
   Your browser does not support the video tag.
 </video>
           </div>
@@ -234,7 +234,7 @@ research into the design. The app should be easy to use to fulfil the purpose of
               <div class="col-lg-4 col-md-4 col-sm-4 col-4">
           <div class="vid">
            <video loop muted autoplay playsinline>
-  <source src="images/vid2.mp4" type="video/mp4">
+  <source src="images/vid2.mp4" type="video/mp4" class="vids">
   Your browser does not support the video tag.
 </video>
           </div>
@@ -242,7 +242,7 @@ research into the design. The app should be easy to use to fulfil the purpose of
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4">
          <div class="vid">
            <video loop muted autoplay playsinline>
-  <source src="images/vid3.mp4" type="video/mp4">
+  <source src="images/vid3.mp4" type="video/mp4" class="vids">
   Your browser does not support the video tag.
 </video>
           </div>
@@ -261,6 +261,30 @@ function goBack() {
 		  
 </script>
 
+<script> const videoElement = document.getElementsByClassName('vids');
+        videoElement.addEventListener('suspend', () => {
+            // suspend invoked
+            // show play button
+        });
+
+        videoElement.addEventListener('play', () => {
+            // video is played
+            // remove play button UI
+        });
+</script>
+
+<script>
+$('body').on('click touchstart', function () {
+            const videoElement = document.getElementsByClassName('vid');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });</script>
 
     <footer>
 	
