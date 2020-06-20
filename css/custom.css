@@ -534,8 +534,9 @@ font-size: 2vw;
   border: none;
   cursor: pointer;
   line-height: 1;
-  
+  font-family: 'Raleway', sans-serif;
   padding: 0.5em 1em;
+	font-size: 1em;
 	
 }
 
@@ -593,7 +594,8 @@ font-size: 2vw;
   border: none;
   cursor: pointer;
   line-height: 1;
-  
+  font-family: 'Raleway', sans-serif;
+
   padding: 0.5em 1em;
 	
 }
