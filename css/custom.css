@@ -85,6 +85,9 @@ li.social a img:hover{
 	font-size: 45px;
 }
 
+.lookup{
+	width: 70%;
+}
 
 .navbar{
 	z-index: 10;
@@ -126,6 +129,10 @@ video {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.lookupposter {
+	width: 50%;
 }
 
 .heading2{
@@ -182,6 +189,12 @@ video {
 	font-family: 'Playfair Display', serif;
 	margin-top: 0.5em;
 	font-size: 1em;
+	
+}
+
+.content3{
+	font-family: 'Playfair Display', serif;
+	font-size: 0.5em;
 	
 }
 
@@ -372,6 +385,10 @@ path{
 
 .projects4 img{
 	width: 400px;
+}
+
+.projects5 img{
+	width: 300px;
 }
 
 
