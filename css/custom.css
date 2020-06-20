@@ -472,7 +472,7 @@ iframe{
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1vw;
-font-size: 2vw;
+font-size: 2.3vw;
 }
 
 .home{
@@ -546,6 +546,24 @@ font-size: 2vw;
 2px dotted white;
 }
 
+.btn4 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  font-family: 'Raleway', sans-serif;
+ box-sizing: border-box;
+	width: 9em;
+  height: 2em;
+	font-size: 1em;
+	
+}
+
+
+.btn4:focus {
+  outline:
+2px dotted white;
+}
 
 
 .draw-border1 {
@@ -673,7 +691,7 @@ font-size: 2vw;
 .glitch {
   font-family: 'Sedgwick Ave Display', cursive;
   color: white;
-  font-size: 14vw;
+  font-size: 15vw;
   position: relative;
   margin: 0 auto;
 
