@@ -369,6 +369,10 @@ path{
 
 }
 
+.img-fluid{
+	
+	width: 80%;
+}
 
 
 .projects2 img{
@@ -453,6 +457,15 @@ position: absolute;
 	font-family: 'Playfair Display', serif;
 	font-size: 0.9em;
 
+}
+
+.blurb4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	border: thin solid black;
+	padding: 5px;
+	width: 250px;
+	
 }
 
 .blurb2{
