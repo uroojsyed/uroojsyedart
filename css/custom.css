@@ -85,9 +85,7 @@ li.social a img:hover{
 	font-size: 45px;
 }
 
-.lookup{
-	width: 70%;
-}
+
 
 .navbar{
 	z-index: 10;
@@ -133,6 +131,10 @@ video {
 
 .lookupposter {
 	width: 50%;
+}
+
+.lookup img{
+	width: 30px;
 }
 
 .heading2{
@@ -402,6 +404,14 @@ path{
 	transition: all ease-in 0.2s;
 }
 
+.project2 img:hover {
+  transform: scale(1.03);
+	transition: all ease-in 0.2s;
+}
+
+.project2 img {
+	width: 60%;
+} 
 .rings{
 	height: 80%;
 	width: 80%;
