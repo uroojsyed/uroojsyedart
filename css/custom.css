@@ -222,6 +222,7 @@ video {
 
 .homebar{
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 
@@ -436,21 +437,6 @@ path{
 
 }
 
-.hasid-banner img{
-height: 5vw;
-}
-
-.hasid-banner2{
-position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.eye img{
-	height: 7vw;
-}
 
 
 
