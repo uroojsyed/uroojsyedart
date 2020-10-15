@@ -214,6 +214,9 @@ video {
 	padding: 5px;
 }
 
+figcaption{
+	font-family: 'Playfair Display', serif;
+}
 
 .userflow{
 	width:100%;
